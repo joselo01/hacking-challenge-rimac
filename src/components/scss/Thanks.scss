@@ -1,0 +1,73 @@
+.usa-app {
+  border-radius: 12px;
+  border: 3px solid #f7f7fa;
+  padding: 5px 20px;
+  position: relative;
+  height: 140px;
+  margin-top: 40px;
+  overflow: hidden;
+
+  .titulo-app {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494f66;
+    margin-bottom: 10px;
+    span {
+      color: #ef3340;
+    }
+  }
+
+  .detalle-app {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #494f66;
+  }
+
+  .centra-detalle {
+    align-self: center;
+  }
+
+  .ilus-app {
+    position: relative;
+    bottom: -8px;
+    right: -10px;
+  }
+}
+
+.content-button-gracias {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40px;
+
+  .btn-primary {
+    background-color: #ef3340;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 148px;
+    height: 48px;
+    line-height: 35px;
+    &:after {
+      content: "";
+      background: url("../../assets/ic_next_enabled.svg") no-repeat;
+      width: 6px;
+      height: 10px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: -4px 0 0 5px;
+    }
+    &:hover {
+      background-color: #ef3340;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../mediaquieres";
+.box-aside {
+  background-color: #ef3340;
+  border-bottom-right-radius: 100px;
+  @include tablet {
+    border-bottom-right-radius: 0;
+  }
+  @include minimo {
+    border-bottom-right-radius: 0;
+  }
+  position: relative;
+
+  &:before {
+    content: "";
+    background: url("../../assets/Illustration-internas.svg") no-repeat;
+    position: absolute;
+    top: 20%;
+    right: -128px;
+    width: 360px;
+    height: 508px;
+    z-index: 10;
+    @include tablet {
+      display: none;
+    }
+    @include tablet {
+      display: none;
+    }
+    @include lapto {
+      display: none;
+    }
+  }
+}

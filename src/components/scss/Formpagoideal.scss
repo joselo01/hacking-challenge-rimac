@@ -1,0 +1,313 @@
+@import "../../mediaquieres";
+.form-pago-ideal {
+  position: relative;
+  .custom-control-inline {
+    border: 3px solid #f7f7fa;
+    width: 152px;
+    height: 122px;
+    border-radius: 10px;
+    position: relative;
+    padding: 12px;
+
+    .custom-control-label {
+      position: absolute;
+      right: 0;
+      top: -18px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .form-pago-ideal__box {
+    padding: 25px 0 10px 0;
+    margin: 15px 0;
+    border-top: 1px solid #edeff5;
+    border-bottom: 1px solid #edeff5;
+    .info-pago {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      padding-bottom: 12px;
+
+      .titulo-pago {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #939dff;
+        margin-bottom: 4px;
+      }
+      .precio-pago {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #494f66;
+        margin-bottom: 3px;
+
+        sup {
+          font-size: 14px;
+          line-height: 20px;
+          margin-right: 3px;
+        }
+      }
+
+      .detalle-pago {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #676f8f;
+      }
+    }
+
+    .pago-total {
+      margin: 30px 0;
+      .pago-total__titulo {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #494f66;
+        margin-bottom: 5px;
+      }
+      .pago_total__asegurado-detalle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #676f8f;
+        span {
+          font-family: Lato;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          text-transform: uppercase;
+          color: #939dff;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 10px;
+        }
+      }
+      .pago-total__precio-asegurado {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 24px;
+        text-align: right;
+        color: #494f66;
+        sub {
+          font-size: 18px;
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  .box-cupon {
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #d4d5e8;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    input {
+      border: none;
+      height: 40px;
+      align-self: center;
+      width: 75%;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+      color: #a9b1d1;
+      padding: 0 5px;
+      outline: none;
+    }
+    .btn-danger__cupon {
+      width: 98px;
+      height: 40px;
+      background: #ef3340;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      align-self: center;
+    }
+  }
+  .titulo-tarjeta {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494f66;
+    margin: 30px 0;
+  }
+
+  .box-payment {
+    border-radius: 4px;
+    border: 1px solid #d4d5e8;
+    margin: 0;
+    .box-payment__input {
+      height: 56px;
+      border-bottom: 1px solid #d4d5e8;
+      display: flex;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      input[type="text"] {
+        border: none;
+        height: 40px;
+        align-self: center;
+        width: 90%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #a9b1d1;
+        padding: 0 5px;
+        outline: none;
+        align-self: center;
+      }
+
+      .card {
+        align-self: center;
+        margin-left: auto;
+      }
+    }
+    .box-payment__input--date {
+      border-right: 1px solid #d4d5e8;
+      border-bottom: 1px solid #d4d5e8;
+      height: 56px;
+      display: flex;
+
+      input {
+        border: none;
+        height: 40px;
+        align-self: center;
+        width: 100%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #a9b1d1;
+        padding: 0 5px;
+        outline: none;
+        align-self: center;
+      }
+    }
+    .box-payment__input--cvv {
+      border-bottom: 1px solid #d4d5e8;
+      height: 56px;
+      display: flex;
+
+      input {
+        border: none;
+        height: 40px;
+        align-self: center;
+        width: 90%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #a9b1d1;
+        padding: 0 5px;
+        outline: none;
+        align-self: center;
+      }
+
+      .toltip {
+        align-self: center;
+        margin-left: auto;
+      }
+    }
+    .box-payment__input--email {
+      border-bottom: none;
+      height: 56px;
+      display: flex;
+
+      input[type="email"] {
+        border: none;
+        height: 40px;
+        align-self: center;
+        width: 100%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #a9b1d1;
+        padding: 0 5px;
+        outline: none;
+        align-self: center;
+      }
+    }
+  }
+
+  .button-pago-ideal {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .check-pago-ideal {
+    .custom-control-label {
+      font-size: 12px;
+    }
+  }
+
+  .check-pago-ideal {
+    .custom-control-label {
+      span {
+        text-decoration: underline;
+        margin: 0 3px;
+      }
+    }
+  }
+}
+
+.box-step__content--ideal {
+  padding: 320px 0 50px 0;
+  .container {
+    padding: 0;
+  }
+  @include tablet {
+    padding-top: 200px;
+  }
+}
+
+.form-pago-ideal__box {
+  .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background: url("../../assets/checkv.svg") no-repeat center;
+  }
+}

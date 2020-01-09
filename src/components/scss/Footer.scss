@@ -1,0 +1,40 @@
+@import "../../mediaquieres";
+.box-red__content {
+  .footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #ffd7da;
+    margin-bottom: 0;
+    margin-top: 60px;
+    @include tablet {
+      display: none;
+    }
+  }
+}
+
+.box-white__content {
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    color: #a9b1d1;
+    font-size: 12px;
+    border-top: 1px solid #edeff5;
+    left: 0;
+    width: 100%;
+    display: none;
+    p {
+      text-align: center;
+    }
+    @include tablet {
+      display: block;
+      height: 30px;
+      line-height: 60px;
+      border-top: 1px solid #edeff5;
+      padding-left: 45px;
+    }
+  }
+}

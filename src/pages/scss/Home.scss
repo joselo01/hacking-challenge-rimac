@@ -1,0 +1,155 @@
+@import "../../mediaquieres";
+.home {
+  position: relative;
+  .ilustracion-home {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 25%;
+    z-index: 10;
+    @include lapto {
+      background: url("../../assets/Illustration_movil.svg") no-repeat;
+      width: 120px;
+      height: 334px;
+      right: 0;
+      top: 10%;
+    }
+    @include desktop {
+      img {
+        width: 18%;
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.box-red {
+  background-color: #ef3340;
+  border-bottom-right-radius: 80px;
+}
+
+.box-red__content,
+.box-white__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  @include tablet {
+    height: 75vh;
+  }
+}
+
+.box-red__content--red,
+.box-red__content--white {
+  width: 50%;
+  @include tablet {
+    width: 80%;
+  }
+  margin: 0 auto;
+}
+
+.box-red__content--red {
+  .titulo-home {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    @include desktop {
+      font-size: 35px;
+      line-height: normal;
+    }
+    @include tablet {
+      font-size: 28px;
+    }
+    line-height: 60px;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+  }
+
+  .descripcion-home {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 15px 0;
+    p {
+      margin: 0;
+    }
+    @include tablet {
+      width: 60%;
+      line-height: 25px;
+      font-size: 15px;
+    }
+  }
+  .lista-home {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        @include tablet {
+          font-size: 13px;
+        }
+        line-height: 35px;
+        color: #ffffff;
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 16px;
+          background: url("../../assets/ic_medicine.svg") no-repeat;
+          display: inline-block;
+          vertical-align: middle;
+          margin: -5px 10px 0 0;
+        }
+      }
+    }
+    @include tablet {
+      height: 35px;
+      overflow: hidden;
+    }
+  }
+}
+
+.box-white__content--white {
+  position: relative;
+  z-index: 20;
+  @include tablet {
+    width: 80%;
+  }
+}
+
+.box-white__content--white {
+  .titulo-form {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.2px;
+    color: #494f66;
+    margin-bottom: 10px;
+    span {
+      color: #ef3340;
+      font-weight: bold;
+    }
+  }
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676f8f;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../mediaquieres";
+.header-logo {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f55d68;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  .logo-rimac {
+    width: 100px;
+    height: 18px;
+    margin-left: 20%;
+    @include tablet {
+      margin-left: 13%;
+      height: 30px;
+      display: block;
+    }
+  }
+}

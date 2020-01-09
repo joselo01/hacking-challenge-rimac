@@ -1,0 +1,375 @@
+@import "../../mediaquieres";
+.user {
+  position: relative;
+}
+
+.box-aside__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  @include tablet {
+    height: 65px;
+  }
+  @include minimo {
+    height: 65px;
+  }
+  position: relative;
+  .header-logo {
+    .logo-rimac {
+      margin: 0 auto;
+      @include tablet {
+        margin-left: 20%;
+      }
+    }
+  }
+}
+
+.box-step__content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding-left: 150px;
+  @include desktop {
+    padding-left: 140px;
+    height: 80vh;
+  }
+
+  @include tablet {
+    padding-left: 0;
+    height: 80vh;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    @include tablet {
+      top: 30px;
+      left: 40px;
+    }
+    a {
+      width: 24px;
+      height: 24p;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px;
+      &:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+        background: url("../../assets/back.svg") no-repeat;
+      }
+    }
+    .navegacion {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 17px;
+      letter-spacing: 0.6px;
+      color: #a9b1d1;
+
+      span {
+        color: #ef3340;
+      }
+    }
+  }
+
+  .box-step__content--interna {
+    padding: 0 0 0 44px;
+    @include desktop {
+      padding: 0;
+    }
+    .titulo-user {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -0.8px;
+      color: #494f66;
+      span {
+        color: #ef3340;
+        font-weight: bold;
+      }
+    }
+
+    .descripcion-user {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #676f8f;
+      margin: 20px 0;
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .datos-titular {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 36px;
+      color: #494f66;
+      margin-bottom: 10px;
+    }
+
+    .mod-dni {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 25px 32px 0 83px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      background: none;
+      border: none;
+      color: #939dff;
+      @include tablet {
+        margin: 40px auto;
+        display: block;
+      }
+    }
+    @include tablet {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+  .box-step__content--asegurado {
+    padding: 100px 0 0 44px;
+    @include desktop {
+      padding: 150px 0 20px 0;
+    }
+    @include tablet {
+      padding: 370px 0 20px 0;
+    }
+    width: 70%;
+    @include desktop {
+      width: 80%;
+    }
+    @include tablet {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .titulo-user {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -0.8px;
+      color: #494f66;
+      span {
+        color: #ef3340;
+        font-weight: bold;
+      }
+    }
+
+    .descripcion-user {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #676f8f;
+      margin: 20px 0;
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .nombre-asegurado {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+      color: #494f66;
+      margin-bottom: 10px;
+    }
+
+    .dni-fecha {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 12px;
+      color: #676f8f;
+      span {
+        margin: 0 7px 0 0;
+      }
+    }
+
+    .opciones {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: #a9b1d1;
+      text-align: center;
+    }
+    .division {
+      border-top: 1px solid #edeff5;
+      border-bottom: 1px solid #edeff5;
+      padding: 20px 0;
+
+      .username,
+      .opciones {
+        padding: 0;
+      }
+    }
+
+    .add-asegurado {
+      margin-top: 30px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #939dff;
+      display: inline-block;
+      vertical-align: middle;
+      &:before {
+        content: "";
+        background: url("../../assets/ic_add.svg") no-repeat;
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+    .content-button {
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 40px;
+      @include tablet {
+        flex-direction: column;
+      }
+
+      .cancelar {
+        width: 150px;
+        height: 50px;
+        margin: 0 10px;
+        text-align: center;
+        line-height: 50px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        color: #939dff;
+        @include tablet {
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
+
+      .btn-primary {
+        background-color: #ef3340;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        width: 148px;
+        height: 48px;
+        line-height: 35px;
+        &:hover {
+          background-color: #ef3340;
+        }
+        @include minimo {
+          width: 100%;
+        }
+        @include tablet {
+          width: 100%;
+        }
+      }
+    }
+
+    .datos-del-asegurado {
+      margin: 20px 0;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 36px;
+      color: #494f66;
+    }
+
+    .genero {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: #494f66;
+    }
+
+    .form-user {
+      width: 80%;
+      @include tablet {
+        width: 100%;
+      }
+    }
+
+    .asegurados {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: #494f66;
+    }
+
+    .todos {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: right;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: #939dff;
+    }
+  }
+
+  .titulo-seguro {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #494f66;
+    margin: 10px 0;
+  }
+
+  .conoce-mas {
+    color: #939dff;
+    font-size: 14px;
+  }
+}

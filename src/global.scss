@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+@import "./mediaquieres";
+
+.box-red,
+.box-white,
+.box-aside {
+  padding: 0;
+}
+
+.form-group {
+  padding: 0 !important;
+  width: 100%;
+}
+.form-control {
+  height: calc(2.7em + 0.75rem + 2px);
+}
+#inputDni {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+#nro {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  font-family: Lato;
+  font-size: 16px;
+  color: #a9b1d1;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #92d66f;
+  background-color: #92d66f;
+}
+
+.custom-control-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a9b1d1;
+  margin-top: 20px;
+}
+
+.btn-danger {
+  width: 205px;
+  height: 60px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 6px;
+  background: #ef3340;
+  margin-top: 40px;
+  &.btn-danger__disabled {
+    background: #ef3340;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    &:after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 7px;
+      height: 12px;
+      background: url("./assets/ic_next_disabled.svg") no-repeat;
+      margin: -2px 0 0 10px;
+    }
+    &.active {
+      background: #a9b1d1;
+      color: #d4d5e8;
+    }
+    @include tablet {
+      width: 100%;
+      display: block;
+    }
+  }
+  &.btn-danger__asegurado {
+    width: 42%;
+    height: 50px;
+    margin-top: 0;
+  }
+  &.btn-danger__asegurado--nuevouser {
+    width: 35%;
+    height: 50px;
+    margin-top: 0;
+  }
+
+  &.btn-pago-ideal {
+    width: 155px;
+    height: 50px;
+  }
+
+  &.btn-danger__asegurado--edit {
+    width: 50%;
+    height: 50px;
+    margin-top: 0;
+    @include tablet {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.custom-control-label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #d4d5e8;
+}
+
+.box-step__content--interna a {
+  color: #939dff;
+  &:hover {
+    text-decoration: none;
+    color: #939dff;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #a9b1d1;
+}
+::-moz-placeholder {
+  color: #a9b1d1;
+}
+:-ms-input-placeholder {
+  color: #a9b1d1;
+}
+:-moz-placeholder {
+  color: #a9b1d1;
+}
+
+.custom-control-inline {
+  margin-right: 3px;
+}
