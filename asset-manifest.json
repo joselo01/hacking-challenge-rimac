@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/hacking-challenge-rimac/static/css/main.47c92d4c.chunk.css",
+    "main.js": "/hacking-challenge-rimac/static/js/main.08e291ec.chunk.js",
+    "main.js.map": "/hacking-challenge-rimac/static/js/main.08e291ec.chunk.js.map",
+    "runtime-main.js": "/hacking-challenge-rimac/static/js/runtime-main.658ddc94.js",
+    "runtime-main.js.map": "/hacking-challenge-rimac/static/js/runtime-main.658ddc94.js.map",
+    "static/css/2.64a99b10.chunk.css": "/hacking-challenge-rimac/static/css/2.64a99b10.chunk.css",
+    "static/js/2.0b40b871.chunk.js": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js",
+    "static/js/2.0b40b871.chunk.js.map": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js.map",
+    "index.html": "/hacking-challenge-rimac/index.html",
+    "precache-manifest.4d9bdbb036a9bd0aba61db818b3d4156.js": "/hacking-challenge-rimac/precache-manifest.4d9bdbb036a9bd0aba61db818b3d4156.js",
+    "service-worker.js": "/hacking-challenge-rimac/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/hacking-challenge-rimac/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.47c92d4c.chunk.css.map": "/hacking-challenge-rimac/static/css/main.47c92d4c.chunk.css.map",
+    "static/js/2.0b40b871.chunk.js.LICENSE": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js.LICENSE",
+    "static/media/Illustration-app.svg": "/hacking-challenge-rimac/static/media/Illustration-app.e185af3d.svg",
+    "static/media/Illustration-inicio.svg": "/hacking-challenge-rimac/static/media/Illustration-inicio.1afc90f3.svg",
+    "static/media/Aside.scss": "/hacking-challenge-rimac/static/media/Illustration-internas.07764807.svg",
+    "static/media/Home.scss": "/hacking-challenge-rimac/static/media/ic_medicine.829bb1e9.svg",
+    "static/media/Logo-rimac.svg": "/hacking-challenge-rimac/static/media/Logo-rimac.9fa012de.svg",
+    "static/media/User.scss": "/hacking-challenge-rimac/static/media/ic_add.07de3504.svg",
+    "static/media/Formpagoideal.scss": "/hacking-challenge-rimac/static/media/checkv.71ee30f7.svg",
+    "static/media/global.scss": "/hacking-challenge-rimac/static/media/ic_next_disabled.64f0af43.svg",
+    "static/media/Thanks.scss": "/hacking-challenge-rimac/static/media/ic_next_enabled.798caaad.svg",
+    "static/media/ic_tooltip.svg": "/hacking-challenge-rimac/static/media/ic_tooltip.66664f33.svg",
+    "static/media/visa-azul.svg": "/hacking-challenge-rimac/static/media/visa-azul.73b9e48c.svg",
+    "static/media/visa.svg": "/hacking-challenge-rimac/static/media/visa.9629e244.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.658ddc94.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.0b40b871.chunk.js",
+    "static/css/main.47c92d4c.chunk.css",
+    "static/js/main.08e291ec.chunk.js"
+  ]
+}
