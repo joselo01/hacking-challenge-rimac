@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "925802747602ad978595868ece3d40ff",
+    "revision": "a5f0a25167fc55fe313faf2442411c17",
     "url": "/hacking-challenge-rimac/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hacking-challenge-rimac/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "adb2b3981d949a2aaad4",
+    "revision": "4389557a55af3b5a766e",
     "url": "/hacking-challenge-rimac/static/css/main.47c92d4c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js.LICENSE"
   },
   {
-    "revision": "adb2b3981d949a2aaad4",
-    "url": "/hacking-challenge-rimac/static/js/main.08e291ec.chunk.js"
+    "revision": "4389557a55af3b5a766e",
+    "url": "/hacking-challenge-rimac/static/js/main.d7b7b009.chunk.js"
   },
   {
     "revision": "af7f6a3d10754570bb39",
