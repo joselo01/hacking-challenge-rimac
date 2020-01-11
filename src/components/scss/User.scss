@@ -46,7 +46,7 @@
     top: 50px;
     left: 150px;
     @include tablet {
-      top: 30px;
+      top: -55px;
       left: 40px;
     }
     a {
@@ -91,6 +91,9 @@
       font-style: normal;
       font-weight: 300;
       font-size: 36px;
+      @include tablet {
+        font-size: 30px;
+      }
       line-height: 48px;
       letter-spacing: -0.8px;
       color: #494f66;
