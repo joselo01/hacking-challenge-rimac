@@ -34,12 +34,11 @@
   padding-left: 150px;
   @include desktop {
     padding-left: 140px;
-    height: 80vh;
   }
 
   @include tablet {
     padding-left: 0;
-    height: 80vh;
+    margin: 80px 0;
   }
 
   .nav-bar {
