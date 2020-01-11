@@ -135,7 +135,7 @@ class FormPagoIdeal extends React.Component {
                           type="text"
                           placeholder="CVV"
                           required
-                          maxlength="3"
+                          maxLength="3"
                           title="123"
                         />
                         <div className="toltip">
