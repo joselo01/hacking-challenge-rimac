@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./scss/User.scss";
 import NavBar from "./NavBar";
 
@@ -26,6 +27,11 @@ class ListUser extends React.Component {
       fecNacimiento: data.fecNacimiento
     });
   }
+
+  handleSubmit = e => {
+    e.preventDefault();
+    this.props.history.push("/nuevo-asegurados");
+  };
 
   render() {
     return (
@@ -80,4 +86,4 @@ class ListUser extends React.Component {
   }
 }
 
-export default ListUser;
+export default withRouter(ListUser);

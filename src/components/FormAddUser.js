@@ -1,9 +1,13 @@
 import React from "react";
 import NavBar from "./NavBar";
 import "./scss/User.scss";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 class AddUser extends React.Component {
+  handleSubmit = e => {
+    e.preventDefault();
+    this.props.history.push("/edit-asegurados");
+  };
   render() {
     return (
       <div className="step">
@@ -28,7 +32,7 @@ class AddUser extends React.Component {
               </div>
               <div className="datos-del-asegurado">Datos del asegurado Nº2</div>
 
-              <form>
+              <form onSubmit={this.handleSubmit}>
                 <div className="form-user">
                   <div className="form-row">
                     <div className="form-group col-4">
@@ -120,7 +124,7 @@ class AddUser extends React.Component {
                   <div className="content-button">
                     <div className="cancelar">Cancelar</div>
                     <button
-                      type="button"
+                      type="submit"
                       className="btn btn-danger btn-danger__asegurado--nuevouser"
                     >
                       Guardar
@@ -136,4 +140,4 @@ class AddUser extends React.Component {
   }
 }
 
-export default AddUser;
+export default withRouter(AddUser);

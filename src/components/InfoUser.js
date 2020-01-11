@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
@@ -35,8 +36,7 @@ class InfoUser extends React.Component {
   };
   handleSubmit = e => {
     e.preventDefault();
-    console.log("Form was submitted");
-    console.log(this.state);
+    this.props.history.push("/tus-asegurados");
   };
 
   render() {
@@ -160,4 +160,4 @@ class InfoUser extends React.Component {
   }
 }
 
-export default InfoUser;
+export default withRouter(InfoUser);
