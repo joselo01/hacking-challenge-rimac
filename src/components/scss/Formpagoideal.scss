@@ -4,6 +4,9 @@
   .custom-control-inline {
     border: 3px solid #f7f7fa;
     width: 152px;
+    @include tablet {
+      width: 145px;
+    }
     height: 122px;
     border-radius: 10px;
     position: relative;
@@ -302,7 +305,7 @@
     padding: 0;
   }
   @include tablet {
-    padding-top: 200px;
+    padding-top: 0px;
   }
 }
 

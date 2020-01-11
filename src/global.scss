@@ -103,6 +103,9 @@ textarea {
     width: 35%;
     height: 50px;
     margin-top: 0;
+    @include tablet {
+      width: 100%;
+    }
   }
 
   &.btn-pago-ideal {
