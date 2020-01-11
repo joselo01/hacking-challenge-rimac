@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hacking-challenge-rimac/static/css/main.b5862956.chunk.css",
+    "main.css": "/hacking-challenge-rimac/static/css/main.df999c67.chunk.css",
     "main.js": "/hacking-challenge-rimac/static/js/main.9c0ab1de.chunk.js",
     "main.js.map": "/hacking-challenge-rimac/static/js/main.9c0ab1de.chunk.js.map",
     "runtime-main.js": "/hacking-challenge-rimac/static/js/runtime-main.658ddc94.js",
@@ -9,10 +9,10 @@
     "static/js/2.0b40b871.chunk.js": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js",
     "static/js/2.0b40b871.chunk.js.map": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js.map",
     "index.html": "/hacking-challenge-rimac/index.html",
-    "precache-manifest.df229230eec9f93b8a274ed443d01b04.js": "/hacking-challenge-rimac/precache-manifest.df229230eec9f93b8a274ed443d01b04.js",
+    "precache-manifest.abcb43d0d40621b18ef7b2d89fed2cef.js": "/hacking-challenge-rimac/precache-manifest.abcb43d0d40621b18ef7b2d89fed2cef.js",
     "service-worker.js": "/hacking-challenge-rimac/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/hacking-challenge-rimac/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.b5862956.chunk.css.map": "/hacking-challenge-rimac/static/css/main.b5862956.chunk.css.map",
+    "static/css/main.df999c67.chunk.css.map": "/hacking-challenge-rimac/static/css/main.df999c67.chunk.css.map",
     "static/js/2.0b40b871.chunk.js.LICENSE": "/hacking-challenge-rimac/static/js/2.0b40b871.chunk.js.LICENSE",
     "static/media/Illustration-app.svg": "/hacking-challenge-rimac/static/media/Illustration-app.e185af3d.svg",
     "static/media/Illustration-inicio.svg": "/hacking-challenge-rimac/static/media/Illustration-inicio.1afc90f3.svg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.658ddc94.js",
     "static/css/2.64a99b10.chunk.css",
     "static/js/2.0b40b871.chunk.js",
-    "static/css/main.b5862956.chunk.css",
+    "static/css/main.df999c67.chunk.css",
     "static/js/main.9c0ab1de.chunk.js"
   ]
 }
